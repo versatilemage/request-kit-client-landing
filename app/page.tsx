@@ -35,6 +35,7 @@ import {
   Menu,
 } from "lucide-react";
 import Link from "next/link";
+import Logo from "@/components/hoc/logo";
 
 export default function RequestKitClientLanding() {
   const [copiedStates, setCopiedStates] = useState<{ [key: string]: boolean }>(
@@ -132,7 +133,8 @@ export default function RequestKitClientLanding() {
       <header className="border-b bg-white/80 backdrop-blur-sm sticky top-0 z-50">
         <div className="container mx-auto px-4 py-3 sm:py-4 flex items-center justify-between">
           <div className="flex items-center space-x-2">
-            <Rocket className="h-6 w-6 sm:h-8 sm:w-8 text-orange-500" />
+            {/* <Rocket className="h-6 w-6 sm:h-8 sm:w-8 text-orange-500" /> */}
+            <Logo/>
             <span className="text-lg sm:text-xl font-bold">
               request-kit-client
             </span>
@@ -206,8 +208,9 @@ export default function RequestKitClientLanding() {
       <section className="py-12 sm:py-16 lg:py-20 px-4">
         <div className="container mx-auto text-center max-w-4xl">
           <div className="flex justify-center mb-4 sm:mb-6">
-            <div className="p-3 sm:p-4 bg-orange-100 rounded-full">
-              <Rocket className="h-8 w-8 sm:h-10 sm:w-10 lg:h-12 lg:w-12 text-orange-500" />
+            <div className="p-3 sm:p-4 bg-orange-500 rounded-full">
+              {/* <Rocket className="h-8 w-8 sm:h-10 sm:w-10 lg:h-12 lg:w-12 text-orange-500" /> */}
+              <Logo size="L" />
             </div>
           </div>
           <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-4 sm:mb-6 bg-gradient-to-r from-slate-900 to-slate-600 bg-clip-text text-transparent leading-tight">
@@ -676,7 +679,8 @@ const posts = await blogService.getPosts()`}</code>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 sm:gap-8">
             <div className="sm:col-span-2">
               <div className="flex items-center space-x-2 mb-3 sm:mb-4">
-                <Rocket className="h-5 w-5 sm:h-6 sm:w-6 text-orange-500" />
+                {/* <Rocket className="h-5 w-5 sm:h-6 sm:w-6 text-orange-500" /> */}
+                <Logo />
                 <span className="text-base sm:text-lg font-bold">
                   request-kit-client
                 </span>
