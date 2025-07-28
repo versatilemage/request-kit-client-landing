@@ -708,17 +708,17 @@ const posts = await blogService.getPosts()`}</code>
               </h3>
               <ul className="space-y-2 text-slate-400 text-sm sm:text-base">
                 <li>
-                  <Link href="#" className="hover:text-white transition-colors">
+                  <Link href="https://www.npmjs.com/package/request-kit-client" className="hover:text-white transition-colors">
                     Documentation
                   </Link>
                 </li>
                 <li>
-                  <Link href="#" className="hover:text-white transition-colors">
+                  <Link href="https://request-kit-client-vite.vercel.app/" className="hover:text-white transition-colors">
                     Examples
                   </Link>
                 </li>
                 <li>
-                  <Link href="#" className="hover:text-white transition-colors">
+                  <Link href="https://www.npmjs.com/package/request-kit-client" className="hover:text-white transition-colors">
                     API Reference
                   </Link>
                 </li>
@@ -730,17 +730,17 @@ const posts = await blogService.getPosts()`}</code>
               </h3>
               <ul className="space-y-2 text-slate-400 text-sm sm:text-base">
                 <li>
-                  <Link href="#" className="hover:text-white transition-colors">
+                  <Link href="https://github.com/versatilemage/request-kit-client/issues" className="hover:text-white transition-colors">
                     GitHub Issues
                   </Link>
                 </li>
                 <li>
-                  <Link href="#" className="hover:text-white transition-colors">
+                  <Link href="https://github.com/versatilemage/request-kit-client" className="hover:text-white transition-colors">
                     Discussions
                   </Link>
                 </li>
                 <li>
-                  <Link href="#" className="hover:text-white transition-colors">
+                  <Link href="https://github.com/versatilemage/request-kit-client" className="hover:text-white transition-colors">
                     Contributing
                   </Link>
                 </li>
