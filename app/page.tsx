@@ -139,7 +139,7 @@ export default function RequestKitClientLanding() {
               request-kit-client
             </span>
             <Badge variant="secondary" className="text-xs">
-              v0.8.2
+              v0.8.4
             </Badge>
           </div>
 
@@ -251,7 +251,7 @@ export default function RequestKitClientLanding() {
             </div>
             <div className="flex items-center space-x-2">
               <CheckCircle className="h-3 w-3 sm:h-4 sm:w-4 text-green-500" />
-              <span>24.1 kB Unpacked</span>
+              <span>37 kB Unpacked</span>
             </div>
             <div className="flex items-center space-x-2">
               <CheckCircle className="h-3 w-3 sm:h-4 sm:w-4 text-green-500" />
