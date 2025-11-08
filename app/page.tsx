@@ -139,7 +139,7 @@ export default function RequestKitClientLanding() {
               request-kit-client
             </span>
             <Badge variant="secondary" className="text-xs">
-              v0.8.4
+              v0.9.0
             </Badge>
           </div>
 
